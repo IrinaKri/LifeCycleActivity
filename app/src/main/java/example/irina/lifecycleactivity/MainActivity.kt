@@ -34,12 +34,11 @@ class MainActivity : AppCompatActivity() {
     override fun onStop() {
         super.onStop()
 
-        Log.d(TAG, "Я думал - это жизнь, ")
+        Log.d(TAG, "Я думал - это жизнь, а это снится...")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.d(TAG, "а это снится...")
     }
 
     override fun onDestroy() {
